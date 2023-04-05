@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Notifications",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Notifications-1.0.0-beta+20230330152753.xcframework.zip",
-			checksum: "ed40e3159bd18758ca1ab44206e4662034a635fa18e9b8dc30aab35e56fc036c"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Notifications-1.0.0-beta+20230405133406.xcframework.zip",
+			checksum: "a0d5480819b19e131e9bac3f5e295490ef509318db4b5cddc64f6bd45a0c45da"
 		)
 	]
 )
