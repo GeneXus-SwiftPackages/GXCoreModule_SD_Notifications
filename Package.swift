@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXCoreModule_SD_NotificationsWrapper",
 				dependencies: [
 					"GXCoreModule_SD_Notifications",
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .watchOS, .iOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.watchOS, .tvOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Notifications",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Notifications-1.0.0-beta+20230516174834.xcframework.zip",
-			checksum: "33bc9dd07f8e997c2902350c224770a4b3fe5dc3888dff9ce5d7a3893da51120"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Notifications-1.0.0-beta+20230518171417.xcframework.zip",
+			checksum: "f15da9e4f7a15d4c9a8c0bf988635df36a507870292c5c56ef56b1710c82de0c"
 		)
 	]
 )
