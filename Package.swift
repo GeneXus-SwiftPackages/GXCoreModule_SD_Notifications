@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreModule_SD_NotificationsWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.5.11")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.5.12")
 	],
 	targets: [
 		.target(name: "GXCoreModule_SD_NotificationsWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Notifications",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_Notifications-1.5.11.xcframework.zip",
-			checksum: "4df9d014afd82d64eb40c9555198bdc246a87727e92e6338ad4065f7eb1d22a1"
+			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_Notifications-1.5.12.xcframework.zip",
+			checksum: "f7448100c8c02f08767568a5668d026532a7ce3e9f87cbc6b3d9539081d95816"
 		)
 	]
 )
